@@ -1,0 +1,50 @@
+/*
+Jackson Meyer 8922843
+
+/*body background colour*/
+body{
+    background-color:#2F3E46;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+}
+/*header 1 colour*/
+h1{
+    margin-right: auto;
+    text-align: center;
+    color: #84A98C;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+/*Header 2 colour*/
+h2{
+    margin:auto;
+    text-align: center;
+    color:#84A98C;
+    margin-bottom: 1rem;
+}
+/*Paragraph colour*/
+p{
+    text-align: center;
+    width:100%;
+    color: #CAD2C5;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, monospace, serif;
+    
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.block{
+    background-color:#354F52;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    width: 35rem;
+    margin-bottom: 5rem;
+    
+}
