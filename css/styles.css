@@ -47,6 +47,6 @@ img{
     width: 35rem;
     margin-bottom: 5rem;   
 }
-.banner{
-    background-image:image-set()
+iframe{
+    width:100%;
 }
