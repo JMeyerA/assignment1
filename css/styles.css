@@ -32,6 +32,14 @@ p{
     font-family: Georgia, 'Times New Roman', Times, monospace, serif;
     
 }
+i{
+    font-size: 25px;
+}
+.quote{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
 img{
     display:block;
     margin-left: auto;
@@ -44,9 +52,14 @@ img{
     margin-right: auto;
     width: 50%;
     padding: 10px;
-    width: 35rem;
     margin-bottom: 5rem;   
 }
 iframe{
-    width:100%;
+    width: 90%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color:#354F52;
 }
