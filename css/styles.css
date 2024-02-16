@@ -2,64 +2,89 @@
 Jackson Meyer 8922843
 
 /*body background colour*/
-body{
-    background-color:#2F3E46;
+html{
+    font-style: italic;
+    font-variant: normal, small-caps;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5rem;
+
+        /*absolute units*/
+    font : normal normal normal 20px/1.5 Georgia, 'Times New Roman', Times, serif;
 }
-/*header 1 colour*/
-h1{
-    margin-right: auto;
-    text-align: center;
-    color: #84A98C;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+body{
+    background-color: hsla(202.5, 9.76%, 16.08%, 1);
+    width:100%; /*relative to parent*/
+    max-width: 1500px;
+    padding : 0.25rem;
+    margin: 0 auto;
+}
+h1, h2{
+    font-variant: small-caps;
+    color: springgreen;
 
 }
-/*Header 2 colour*/
-h2{
-    margin:auto;
-    text-align: center;
-    color:#84A98C;
-    margin-bottom: 1rem;
+figcaption{
+    font:bold
 }
-/*Paragraph colour*/
+q{
+    font-style: italic;
+    font-family: cursive;
+}
 p{
-    text-align: center;
+    font-size: 15px;
     width:100%;
-    color: #CAD2C5;
-    margin-bottom: 1rem;
-    font-family: Georgia, 'Times New Roman', Times, monospace, serif;
-    
+    color: #CAD2C5; 
+}   
+.main-section-figure img{
+    padding: 0.5rem;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
 }
-i{
-    font-size: 25px;
-}
-.quote{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-}
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-}
-.block{
-    background-color:#354F52;
-    margin-left:auto;
-    margin-right: auto;
+.main-section-figure figure{
     width: 50%;
-    padding: 10px;
-    margin-bottom: 5rem;   
+    height: 50%;
+    padding: .5rem;
+    margin: 1rem;
+}
+#relative-path-image{
+    border: .25rem solid rgb(167, 190, 169);
+    border-radius:10%;
+    color:rgb(167, 190, 169);
+    background-color: hsla(200.87, 19.66%, 22.94%, 1);
+}
+#absolute-path-image{
+    border: .25rem solid rgb(200, 190, 169);
+    border-radius: 10%;
+    color:rgb(200, 190, 169);
+    background-color: hsla(200.87, 19.66%, 22.94%, 1);
+}
+.main-section{
+    text-align: center;
+    padding: .5rem;
 }
 iframe{
-    width: 90%;
-    padding: 5%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    padding: .5rem;
+    border:.25rem solid #8a8;
 }
-footer{
-    background-color:#354F52;
+footer, header{
+    text-align: center;
+    border : .5rem double #5A7469;
+    background-image: linear-gradient(90deg, rgba(90,116,105,1) 0%, rgba(37,42,45,1) 80%, rgba(0,212,255,1) 100%);
+    color:#CAD2C5
 }
+#bio{
+    text-align: left;
+}
+#quote{
+    padding: .25rem;
+    border: .25rem solid #8A8;
+    box-shadow: 1rem 1rem darkslategray;
+    color:#CAD2C5
+}
+
